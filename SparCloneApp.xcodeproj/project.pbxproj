@@ -7,18 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091C05FA2A8B8CCA0039C3B3 /* NavBarButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C05F92A8B8CCA0039C3B3 /* NavBarButtons.swift */; };
+		091C05FC2A8B8D300039C3B3 /* CustomFullNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C05FB2A8B8D2F0039C3B3 /* CustomFullNavBar.swift */; };
+		091C05FE2A8B93380039C3B3 /* StoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C05FD2A8B93380039C3B3 /* StoriesCell.swift */; };
+		091C06002A8B9DD90039C3B3 /* Stories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091C05FF2A8B9DD90039C3B3 /* Stories.swift */; };
+		097F835C2A8E3106001ABA46 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F835B2A8E3106001ABA46 /* ProductCell.swift */; };
+		097F83622A8E5C80001ABA46 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F83612A8E5C80001ABA46 /* Products.swift */; };
+		097F83682A8E936D001ABA46 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F83672A8E936D001ABA46 /* Categories.swift */; };
+		09A3CA622A8D042200D26A2A /* Discounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3CA612A8D042200D26A2A /* Discounts.swift */; };
+		09A3CA662A8D117200D26A2A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3CA652A8D117200D26A2A /* Models.swift */; };
+		09A3CA682A8D331400D26A2A /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3CA672A8D331400D26A2A /* QRCode.swift */; };
+		09A3CA6A2A8DA24700D26A2A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A3CA692A8DA24700D26A2A /* Data.swift */; };
 		09D8B5C42A88F20B0095DE1C /* SparCloneAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D8B5C32A88F20B0095DE1C /* SparCloneAppApp.swift */; };
 		09D8B5C62A88F20B0095DE1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D8B5C52A88F20B0095DE1C /* ContentView.swift */; };
 		09D8B5C82A88F20C0095DE1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D8B5C72A88F20C0095DE1C /* Assets.xcassets */; };
 		09D8B5CB2A88F20C0095DE1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D8B5CA2A88F20C0095DE1C /* Preview Assets.xcassets */; };
+		09D8B5D22A88F3010095DE1C /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D8B5D12A88F3010095DE1C /* MainScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		091C05F92A8B8CCA0039C3B3 /* NavBarButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarButtons.swift; sourceTree = "<group>"; };
+		091C05FB2A8B8D2F0039C3B3 /* CustomFullNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFullNavBar.swift; sourceTree = "<group>"; };
+		091C05FD2A8B93380039C3B3 /* StoriesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesCell.swift; sourceTree = "<group>"; };
+		091C05FF2A8B9DD90039C3B3 /* Stories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stories.swift; sourceTree = "<group>"; };
+		097F835B2A8E3106001ABA46 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		097F83612A8E5C80001ABA46 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		097F83672A8E936D001ABA46 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		09A3CA612A8D042200D26A2A /* Discounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discounts.swift; sourceTree = "<group>"; };
+		09A3CA652A8D117200D26A2A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		09A3CA672A8D331400D26A2A /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		09A3CA692A8DA24700D26A2A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		09D8B5C02A88F20B0095DE1C /* SparCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D8B5C32A88F20B0095DE1C /* SparCloneAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparCloneAppApp.swift; sourceTree = "<group>"; };
 		09D8B5C52A88F20B0095DE1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09D8B5C72A88F20C0095DE1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D8B5CA2A88F20C0095DE1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		09D8B5D12A88F3010095DE1C /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +56,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091C05F52A8B8BCE0039C3B3 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				091C05F62A8B8C130039C3B3 /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		091C05F62A8B8C130039C3B3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				09A3CA642A8D110F00D26A2A /* Model */,
+				091C05F72A8B8C300039C3B3 /* Components */,
+				09D8B5D12A88F3010095DE1C /* MainScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		091C05F72A8B8C300039C3B3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				097F836F2A8EB76A001ABA46 /* CategoriesSection */,
+				097F836E2A8EB75F001ABA46 /* ProductsSection */,
+				097F836D2A8EB74E001ABA46 /* QRCode */,
+				097F836C2A8EB739001ABA46 /* DiscountsSection */,
+				097F836B2A8EB723001ABA46 /* NavBarSection */,
+				097F836A2A8EAFAB001ABA46 /* StoriesSection */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		097F836A2A8EAFAB001ABA46 /* StoriesSection */ = {
+			isa = PBXGroup;
+			children = (
+				091C05FD2A8B93380039C3B3 /* StoriesCell.swift */,
+				091C05FF2A8B9DD90039C3B3 /* Stories.swift */,
+			);
+			path = StoriesSection;
+			sourceTree = "<group>";
+		};
+		097F836B2A8EB723001ABA46 /* NavBarSection */ = {
+			isa = PBXGroup;
+			children = (
+				091C05F92A8B8CCA0039C3B3 /* NavBarButtons.swift */,
+				091C05FB2A8B8D2F0039C3B3 /* CustomFullNavBar.swift */,
+			);
+			path = NavBarSection;
+			sourceTree = "<group>";
+		};
+		097F836C2A8EB739001ABA46 /* DiscountsSection */ = {
+			isa = PBXGroup;
+			children = (
+				09A3CA612A8D042200D26A2A /* Discounts.swift */,
+			);
+			path = DiscountsSection;
+			sourceTree = "<group>";
+		};
+		097F836D2A8EB74E001ABA46 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				09A3CA672A8D331400D26A2A /* QRCode.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		097F836E2A8EB75F001ABA46 /* ProductsSection */ = {
+			isa = PBXGroup;
+			children = (
+				097F83612A8E5C80001ABA46 /* Products.swift */,
+				097F835B2A8E3106001ABA46 /* ProductCell.swift */,
+			);
+			path = ProductsSection;
+			sourceTree = "<group>";
+		};
+		097F836F2A8EB76A001ABA46 /* CategoriesSection */ = {
+			isa = PBXGroup;
+			children = (
+				097F83672A8E936D001ABA46 /* Categories.swift */,
+			);
+			path = CategoriesSection;
+			sourceTree = "<group>";
+		};
+		09A3CA642A8D110F00D26A2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09A3CA652A8D117200D26A2A /* Models.swift */,
+				09A3CA692A8DA24700D26A2A /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		09D8B5B72A88F20B0095DE1C = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +168,7 @@
 			children = (
 				09D8B5C32A88F20B0095DE1C /* SparCloneAppApp.swift */,
 				09D8B5C52A88F20B0095DE1C /* ContentView.swift */,
+				091C05F52A8B8BCE0039C3B3 /* Screens */,
 				09D8B5C72A88F20C0095DE1C /* Assets.xcassets */,
 				09D8B5C92A88F20C0095DE1C /* Preview Content */,
 			);
@@ -137,8 +253,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D8B5D22A88F3010095DE1C /* MainScreen.swift in Sources */,
+				097F83682A8E936D001ABA46 /* Categories.swift in Sources */,
 				09D8B5C62A88F20B0095DE1C /* ContentView.swift in Sources */,
+				091C05FC2A8B8D300039C3B3 /* CustomFullNavBar.swift in Sources */,
+				097F83622A8E5C80001ABA46 /* Products.swift in Sources */,
+				091C05FE2A8B93380039C3B3 /* StoriesCell.swift in Sources */,
+				09A3CA6A2A8DA24700D26A2A /* Data.swift in Sources */,
 				09D8B5C42A88F20B0095DE1C /* SparCloneAppApp.swift in Sources */,
+				091C05FA2A8B8CCA0039C3B3 /* NavBarButtons.swift in Sources */,
+				09A3CA622A8D042200D26A2A /* Discounts.swift in Sources */,
+				09A3CA662A8D117200D26A2A /* Models.swift in Sources */,
+				097F835C2A8E3106001ABA46 /* ProductCell.swift in Sources */,
+				091C06002A8B9DD90039C3B3 /* Stories.swift in Sources */,
+				09A3CA682A8D331400D26A2A /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -275,6 +403,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +433,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
