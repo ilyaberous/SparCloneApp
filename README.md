@@ -9,5 +9,5 @@
 
 ## Скриншоты
 
-[](presentation_app.jpg)
+[](/presentation_app.jpg)
 
