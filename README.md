@@ -9,7 +9,7 @@
 
 ## Скриншоты
 
-![](presentation_app.jpg)
+![](screenshots.jpg)
 
 ## Что можно улучшить
 
