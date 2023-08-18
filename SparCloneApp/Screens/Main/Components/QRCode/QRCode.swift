@@ -18,6 +18,7 @@ struct QRCode: View {
                 .cornerRadius(18)
                 .shadow(color: .black.opacity(0.09), radius: 3, x: 1, y: 2)
                 .padding(.horizontal)
+            
             HStack(alignment: .bottom) {
                 Text(String(amountOfBonuses))
                     .font(.system(size: 32, weight: .heavy, design: .rounded))
