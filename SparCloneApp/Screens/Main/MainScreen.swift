@@ -15,7 +15,7 @@ struct MainScreen: View {
                     VStack(spacing: 16) {
                         Stories(stories: Data.stories)
                         Discounts(discounts: Data.discounts)
-                        QRCode()
+                        QRCode(amountOfBonuses: Data.qrcode.amountOfBonuses)
                         Categories(categories: Data.categories)
                         Products(productSection: Data.productSectionRecommendations)
                     }

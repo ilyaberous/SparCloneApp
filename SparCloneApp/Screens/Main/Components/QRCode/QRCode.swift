@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct QRCode: View {
+    let amountOfBonuses: Int
+    
     var body: some View {
         ZStack(alignment: .topLeading) {
             Image("qr")
@@ -17,7 +19,7 @@ struct QRCode: View {
                 .shadow(color: .black.opacity(0.09), radius: 3, x: 1, y: 2)
                 .padding(.horizontal)
             HStack(alignment: .bottom) {
-                Text("20")
+                Text(String(amountOfBonuses))
                     .font(.system(size: 32, weight: .heavy, design: .rounded))
                     
                 Text("бонусов")
@@ -32,6 +34,6 @@ struct QRCode: View {
 
 struct QRCode_Previews: PreviewProvider {
     static var previews: some View {
-        QRCode()
+        QRCode(amountOfBonuses: Data.qrcode.amountOfBonuses)
     }
 }

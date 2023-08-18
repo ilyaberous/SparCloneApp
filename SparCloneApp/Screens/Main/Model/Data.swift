@@ -34,4 +34,6 @@ struct Data {
                            ProductItem(img: "naggetsi", mainPrice: 123, kopecks: 33, oldPrice: nil, offerLabel: nil)]
     
     static let productSectionRecommendations = ProductSection(title: "Рекомендуем", products: products)
+    
+    static let qrcode = QRCard(amountOfBonuses: 20)
 }
