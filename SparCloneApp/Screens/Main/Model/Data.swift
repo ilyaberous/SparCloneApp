@@ -8,7 +8,7 @@
 import Foundation
 
 struct Data {
-    static let discounts = [DiscountItem(img: "pizza"),
+    static let discounts = [DiscountItem(img: "Pizza"),
                      DiscountItem(img: "vine"),
                      DiscountItem(img: "posuda"),
                      DiscountItem(img: "utro")]
